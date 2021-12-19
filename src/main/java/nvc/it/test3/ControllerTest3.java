@@ -16,13 +16,13 @@ public class ControllerTest3 {
     @RequestMapping("/name")
     @ResponseBody
     public String name (){
-        return "<center><h1>I am Ultra Thanakit</h1></center> <a href='/'> Go to index page</a>";
+        return "<center><h1>I am Ultra Thanakit</h1></center> <a href='/'> Go to index page</a> <a href='/about'> Go to About page</a> <a href='/contect'> Go to Contect page</a>";
     }
 
     @RequestMapping("/about")
     @ResponseBody
     public String about(){
-        return "<center><h1>Contect</h1></center>";
+        return "<center><h1>About</h1></center>";
     }
 
     @RequestMapping("/contect")
